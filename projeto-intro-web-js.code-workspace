@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "projeto-intro-web-js",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "projeto-intro-web-js",
+		"liveServer.settings.port": 5501
+	}
+}
