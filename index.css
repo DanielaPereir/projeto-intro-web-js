@@ -1,0 +1,185 @@
+*{margin:0;
+  padding: 0;}
+
+body{
+font:poppins;
+
+}
+
+header{
+  position: absolute;
+  width: 1920px;
+  height: 152px;
+  left: 0px;
+  top: 0px;
+  background: #FBFBFB;
+  
+}
+.logo{
+position: absolute;
+width: 349px;
+height: 75px;
+left: 255px;
+top: 39px;
+}
+
+.opcoes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 75px;
+  
+  position: absolute;
+  width: 609px;
+  height: 36px;
+  left: 1056px;
+  top: 58px;
+  list-style: none;
+  
+}
+.home{
+width: 74px;
+height: 36px;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+text-decoration-line: underline;
+color: #0E0E0E;
+}
+.cursos{
+  
+width: 87px;
+height: 36px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #0E0E0E;
+flex: none;
+order: 1;
+}
+.contato{
+  width: 101px;
+height: 36px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #0E0E0E;
+flex: none;
+order: 2;
+}
+.areaADM{  
+width: 80px;
+height: 36px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #0E0E0E;
+flex: none;
+order: 3;
+}
+
+.hero{
+  width: 1920px;
+  height: 780px;
+  left: 1920px;
+  top: 152px;
+background-color:#F6C34A;
+}
+
+.titulo{
+  position: absolute;
+  width: 760px;
+  height: 90px;
+  left: 580px;
+  top: 372px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+}
+.texto2{
+  position: absolute;
+width: 832px;
+height: 51px;
+left: 544px;
+top: 463px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 51px;
+
+/* identical to box height */
+
+color: #0E0E0E;
+}
+.curso{
+  position: absolute;
+width: 292px;
+height: 36px;
+left: 816px;
+top: 651px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #FBFBFB;
+
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+.sobre{
+background-color: #0E0E0E;
+display: flex;
+Width:1920px;
+Height:1161px;
+Top:929px
+}
+
+.sobre h2{
+  color:#FBFBFB;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+}
+
+.sobre p {
+  color: white;
+}
+
+.imag1{
+  color:#FBFBFB;
+  display: flex;
+  flex-direction:wrap;
+
+}
+
+footer{
+display:flex;
+width: 1920px;
+height: 467px;
+left: 255px;
+top: 2119px;
+justify-content: space-around;
+background-color:#F6C34A;
+}

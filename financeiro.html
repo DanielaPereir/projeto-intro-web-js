@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="./telaContato.css">
+    <link rel="stylesheet" type="text/css" href="./financeiro.css">
     <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,19 +22,28 @@
             </ul>
         </nav>
     </header>
+    <main>
+       <aside>
+            <a href="./telaAreaADM.html">Turmas</a>
+            <a href="./matriculas.html">Matriculas</a>
+            <a href="./financeiro.html">Financeiro Alunos</a>
+       </aside>
     <section>
-       <form class="Contacto">
-        <h2><b>Fale Conosco</b></h2>
-        <label for="nome"><b>Nome:</b></label>
-        <input type="text"/>
-        <label for ="email"><b>Email</b></label>
-        <input type="email">
-        <label for="text"><b>Mensagem:</b></label>
-        <textarea></textarea>
-        <button><b>Enviar</b></button>
-       </form>
-       <button class="whatsapp"><img src="./Imagens/logos_whatsapp-icon.png"></button>
-    </section>
+            <article class ="financeiro"></article>
+            <h3><b>Financeiro</b></h3>
+            <label class="curso"><b>Curso</b></label>
+            <input type="text">
+            <label class="parcelas"><b>Numero de parcelas</b> </label>
+            <input type="number">
+            <button class="valor"><b>Ver valor</b></button>
+            <article class="relatorio"></article>
+            <h3><b>Relatorio do aluno</b></h3>
+            <label class="nome"><b>Nome</b></label>
+            <input type="text">
+            <button class="buscar">Buscar</button>
+     </section>
+
+    </main>
     <footer>
         <figure>
         <img src="./Imagens/logo 1.png">

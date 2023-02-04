@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="./index.css">
     <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta
@@ -17,30 +18,32 @@
 
 <body>
     <header>
-        <a href="index.html">
+        <a class="logo" href="index.html">
             <img src="./Imagens/logo 1.png">
         </a>
         <nav>
-            <ul>
-                <li><a href="index.HTML">Home</a></li>
-                <li><a href="telaCurso.html">Cursos</a></li>
-                <li><a href="telaContato.html">Contato</a></li>
-                <li><a href="telaAreaADM.html">Area ADM</a></li>
+            <ul class="opcoes">
+                <li><a class="home"href="index.HTML">Home</a></li>
+                <li><a class="cursos"href="telaCurso.html">Cursos</a></li>
+                <li><a class="contato" href="telaContato.html">Contato</a></li>
+                <li><a class="areaADM"href="telaAreaADM.html">Area ADM</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Descubra o novo ensino!</h1>
-            <p>Aprenda de verdade, no seu tempo , no seu ritmo</p>
-            <button><a href="telaCurso.html">Conheça nossos cursos</a></button> 
-             <button><img src="./Imagens/logos_whatsapp-icon.png"></button>
+        <section class="hero">
+            <img src="./Imagens/background-hero(1).png" alt="">
+            <h1 class="titulo">Descubra o novo ensino!</h1>
+            <p class="texto2">Aprenda de verdade, no seu tempo , no seu ritmo</p>
+            <button class="curso"><a href="telaCurso.html">Conheça nossos cursos</a></button> 
+             <button class="whatsapp"><img src="./Imagens/logos_whatsapp-icon(1).png"></button>
         </section>
-        <section>
+        <section class="sobre">
             <h2>Sobre nós</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, et neque nesciunt, excepturi quos praesentium delectus sit, voluptates doloribus option</p>
         </section>
-       <h2>Depoimentos</h2>
+        <Section>
+            <h3>Depoimentos</h3>
     <figure class="img1">
         <img src="./Imagens/Ellipse 1.png">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, officia!</p>
@@ -57,10 +60,9 @@
         <img src="./Imagens/Ellipse 2-2.png">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod magni facere possimus perspiciatis quisquam debitis esse eaque.</p>
     </figure>
-        <section>
-           
-        </section>
-    </main>
+       </Section>
+    </section>
+</main>
     <footer>
         <figure>
         <img src="./Imagens/logo 1.png">
