@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    font-family:"poppins";
+
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: transparent;
+    border-radius:0;
+    border-color: transparent;
+
+}
+
+
+.menu1{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    background-image:url(./background-hero\(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-color:#F6C34A;
+    }
+
+    .hero{
+        display: flex;
+        align-items:  center;
+        width: 100vw;
+
+    }
+
+    .menu1 curso{
+        display: flex;
+        gap:2rem
+    }
+
+    #curso{
+        display: flex;
+        padding:0.5rem 3rem 0.5rem 3rem;
+        background-color:black;
+        border-radius: 10px;
+        margin-top: 3rem;
+      }
+      
+      #curso a {
+        color: white;
+        font-family:"poppins";
+        text-decoration: none;
+      }
+
+      .menu2{
+        display: flex;
+      }
+
+      .sobre{
+        display: flex;
+        justify-content:flex-start;
+        align-content: center;
+        background-color:black;
+        text-align: center;
+        color:white;
+        flex-direction: column;
+        width: 100vw;
+        height: 40vh;
+        padding-top: 4rem  ;
+        padding-bottom: 4rem;
+      }
+
+
+      
+      .sobre p{
+        padding:2rem 15rem 2rem 15rem;
+      }
+      
+      .depoimentos{
+        display: flex;
+      }
+
+     .menu3 h2{
+        display: flex;
+        justify-content:flex-start;
+        align-content: center;
+        background-color:black;
+        text-align: center;
+        color:white;
+        flex-direction: column;
+        width: 100vw;
+        padding: 0;
+      }
+      
+      .menu3{
+        display:flex;
+        background-color: black;
+        flex-direction: column;
+        padding: 5rem 5rem ;
+      }
+
+    
+      .img1{
+        border:white solid 4px ;
+        background-color:white;
+        color:black;
+        border-radius:10px;
+        text-align: center;
+      }
+
+      .g2{
+        border:white solid 2px ;
+        background-color:white;
+        color:black;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .img3{
+        border:white solid 2px ;
+        background-color:white;
+        color:black;
+        border-radius: 10px;
+        text-align: center;
+      }
+      .img4{
+        border:white solid 2px ;
+        background-color:white;
+        color:black;
+        border-radius: 10px;
+        text-align: center; 
+      }
+
+      .pessoas{
+        display: flex;
+        align-content: space-between;
+        height: 40vh;
+      }

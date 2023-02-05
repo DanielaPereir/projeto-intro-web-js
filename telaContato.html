@@ -7,20 +7,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="./styles-css/global.css"
+    >
 </head>
 <body>
     <header>
-        <a href="index.html">
+        <a
+            class="logo"
+            href="index.html"
+        >
             <img src="./Imagens/logo 1.png">
         </a>
         <nav>
-            <ul>
-                <li><a href="index.HTML">Home</a></li>
-                <li><a href="telaCurso.html">Cursos</a></li>
-                <li><a href="telaContato.html">Contato</a></li>
-                <li><a href="telaAreaADM.html">Area ADM</a></li>
+            <ul class="opcoes">
+                <li><a
+                        class="home"
+                        href="index.HTML"
+                    >Home</a></li>
+                <li><a
+                        class="cursos"
+                        href="telaCurso.html"
+                    >Cursos</a></li>
+                <li><a
+                        class="contato"
+                        href="telaContato.html"
+                    >Contato</a></li>
+                <li><a
+                        class="areaADM"
+                        href="telaAreaADM.html"
+                    >Area ADM</a></li>
             </ul>
         </nav>
+        
     </header>
     <section>
        <form class="Contacto">
@@ -37,39 +57,56 @@
     </section>
     <footer>
         <figure>
-        <img src="./Imagens/logo 1.png">
+            <img src="./Imagens/logo 1.png">
         </figure>
-        <div id="enderco">
-            <h5>Endereço</h5>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0286872906636!2d-46.70124163580879!3d-23.567413151416183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a7ccc8ac0f%3A0xd232160de9211a96!2sR.%20Pais%20Leme%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brasil!5e0!3m2!1spt-BR!2sie!4v1673196143473!5m2!1spt-BR!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="Links">
-          
-            <ul style="list-style:none">
+        <div class="menu">
+            <div id="enderco">
+                <h3>Endereço</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0286872906636!2d-46.70124163580879!3d-23.567413151416183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a7ccc8ac0f%3A0xd232160de9211a96!2sR.%20Pais%20Leme%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brasil!5e0!3m2!1spt-BR!2sie!4v1673196143473!5m2!1spt-BR!2sie"
+                    width="449"
+                    height="269"
+                    style="border:2px solid black;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+                <p>R. Pais Leme, 215. CEP 05424-150 - Pinheiros</p>
+            </div>
+
+            <div class="links">
                 <h3>Links</h3>
-                <li><a href="index.HTML"></a>Home</li>
-                <li><a href="telaCurso.html"></a>Cursos</li>
-                <li><a href=""></a>Blog</li>
-                <li><a href="telaContato.html"></a>Fale conosco</li>
-                <li><a href=""></a>Termos e condiçoes</li>
-                <li><a href=""></a>Politica de privacidade</li>
-                <li><A href=""></A>FAQ</li>
-            </ul>
-        </div>
-        <div class="Redes">
-            <h3>Redes sociais</h3>
-            <img src="./Imagens/Vector-2.png">   
-            <img src="./Imagens/Vector-3.png">
-            <img src="./Imagens/Vector.png">
-            <img src="./Imagens/Vector-4.png">
-        
+                <ul>
+                    <li><a href="index.HTML"></a>Home</li>
+                    <li><a href="telaCurso.html"></a>Cursos</li>
+                    <li><a href=""></a>Blog</li>
+                    <li><a href="telaContato.html"></a>Fale conosco</li>
+                    <li><a href=""></a>Termos e condiçoes</li>
+                    <li><a href=""></a>Politica de privacidade</li>
+                    <li><A href=""></A>FAQ</li>
+                </ul>
+            </div>
+            <div class="Redes">
+                <h3>Redes sociais</h3>
+                <div class="imagens">
+                   <a href=""><img src="./Imagens/Vector-2.png"></a>
+                    <a href=""><img src="./Imagens/Vector-3.png"></a>
+                    <a href=""><img src="./Imagens/icon-twitter 1.svg"></a>
+                    <a href=""><img src="./Imagens/Vector-4.png"></a>
+                </div>
+
+            </div>
+
+            <div class="areaRestrita">
+                <h3>Área restritiva</h3>
+                <div class="area">
+                    <a href="telaAreaADM.html">Área administrativa</a>
+                    <a href="">Espaço do aluno</a>
+                </div>
+
+            </div>
         </div>
 
-        <div class="area restrita">
-            <h3>Área restritiva</h3>
-                <p><a href="telaAreaADM.html">Área administrativa</a></p>
-               <p><a href="">Espaço do aluno</a></p>
-        </div>
     </footer>
 </body>
 </html>
