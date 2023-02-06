@@ -1,0 +1,66 @@
+.curso{
+    display: flex; 
+    flex-direction: column;   
+    background-color:#F6C34A;
+    color: white;
+    height: 70vh;
+    width: 100vw;   
+    font-family:"poppins";
+
+}
+
+.menu-cursos{
+    display: flex;
+    gap:3rem;
+    justify-content: center;
+    align-items: center;
+    padding-right:30rem;
+    padding-left: 30rem;
+    padding-top: 5rem;
+}
+
+
+
+.menu-cursos article{
+    height:45vh;
+    width:20vw ;
+    background-color: white;
+    color: black ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding:0 1rem;
+}
+
+
+
+
+
+
+
+.button1{
+    display: flex;
+    font-family:"poppins";
+    justify-content: center;
+    align-items: center;
+}
+
+.button2{
+    width: 20vw;
+    height: 7vh;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    background-color: black;
+    font-family: "poppins";
+
+}
+
+.button2 a{
+    font-family: "poppins";
+    color: white;
+    text-decoration: none;    
+    font-size:24px;
+    font-weight:700;
+}
