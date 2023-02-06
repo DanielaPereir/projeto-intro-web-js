@@ -1,149 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-main{
-    font-family:"poppins";
+main {
+  font-family: "poppins";
 
 }
 
-.hero{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction:column;
+.hero {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 
-.whatsapp{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 9999;
-    background-color: transparent;
-    border-radius:0;
-    border-color: transparent;
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: transparent;
+  border-radius: 0;
+  border-color: transparent;
 
 }
 
 
-.menu1{
-    display: flex;
-    width: 100vw;
-    height: 70vh;
-    background-image:url(./background-hero\(1\).png);
-    background-size: cover;
-    background-position: center;
-    background-color:#F6C34A;
-    }
+.menu1 {
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  background-image: url(./background-hero\(1\).png);
+  background-size: cover;
+  background-position: center;
+  background-color: #F6C34A;
+}
 
-    .hero{
-        display: flex;
-        align-items:  center;
-        width: 100vw;
+.hero {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  font-size: 3.00rem;
 
-    }
+}
+.texto2{
+  font-size:2rem;
 
-    .menu1 curso{
-        display: flex;
-        gap:2rem
-    }
+}
 
-    #curso{
-        display: flex;
-        padding:0.5rem 3rem 0.5rem 3rem;
-        background-color:black;
-        border-radius: 10px;
-        margin-top: 3rem;
-      }
-      
-      #curso a {
-        color: white;
-        font-family:"poppins";
-        text-decoration: none;
-      }
+.menu1 curso {
+  display: flex;
+  gap: 2rem
+}
 
-      .menu2{
-        display: flex;
-      }
+#curso {
+  display: flex;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
 
-      .sobre{
-        display: flex;
-        justify-content:flex-start;
-        align-content: center;
-        background-color:black;
-        text-align: center;
-        color:white;
-        flex-direction: column;
-        width: 100vw;
-        height: 40vh;
-        padding-top: 4rem  ;
-        padding-bottom: 4rem;
-      }
+#curso a {
+  color: white;
+  font-family: "poppins";
+  text-decoration: none;
+}
 
+.menu2 {
+  display: flex;
+}
 
-      
-      .sobre p{
-        padding:2rem 15rem 2rem 15rem;
-      }
-      
-      .depoimentos{
-        display: flex;
-      }
+.sobre {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  background-color: black;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  width: 100vw;
+  height: 10vh;
+  padding-top: 4rem;
+}
 
-     .menu3 h2{
-        display: flex;
-        justify-content:flex-start;
-        align-content: center;
-        background-color:black;
-        text-align: center;
-        color:white;
-        flex-direction: column;
-        width: 100vw;
-        padding: 0;
-      }
-      
-      .menu3{
-        display:flex;
-        background-color: black;
-        flex-direction: column;
-        padding: 5rem 5rem ;
-      }
+.sobre h2{
+  font-size: 2.5rem;
+}
 
-    
-      .img1{
-        border:white solid 4px ;
-        background-color:white;
-        color:black;
-        border-radius:10px;
-        text-align: center;
-      }
+.sobre p {
+  padding: 2rem 15rem 0rem 15rem;
+}
 
-      .g2{
-        border:white solid 2px ;
-        background-color:white;
-        color:black;
-        border-radius: 10px;
-        text-align: center;
-      }
-      .img3{
-        border:white solid 2px ;
-        background-color:white;
-        color:black;
-        border-radius: 10px;
-        text-align: center;
-      }
-      .img4{
-        border:white solid 2px ;
-        background-color:white;
-        color:black;
-        border-radius: 10px;
-        text-align: center; 
-      }
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-color: black;
+  color:white;
+  height: 70vh;
+}
 
-      .pessoas{
-        display: flex;
-        align-content: space-between;
-        height: 40vh;
-      }
+.menu3{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap:3rem;
+}
+
+.menu3 article{
+  height:35vh;
+  width:15vw ;
+  background-color: white;
+  color: black ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  gap:4rem;
+  border-radius: 10px;
+  padding:0 1rem;
+}
+
+.depoimentos h2{
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
